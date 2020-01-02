@@ -13,15 +13,32 @@ div .logo {
 .main-nav {
   color: $green;
 
-  a {
-    color: $orange;
+  div .logo {
+    color: $green;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom:  none #000;
+  }
+}
+.main-nav{
+
+  .logo{
+    color: $blue;
     text-decoration: underline;
     border-bottom: dotted #000;
     }
-  .logo {
-    color: $blue;
-    font-weight: bold;
-    text-decoration: underline;
-    border-bottom:  none #000;
+    div .logo{
+      color: $green;
+      text-decoration: none;
+
+    }
+    a {
+      color: $orange;
+      text-decoration: underline;
+      border-bottom: dotted #000;
+      }
+
 }
+.other {
+  text-decoration: none;
 }
